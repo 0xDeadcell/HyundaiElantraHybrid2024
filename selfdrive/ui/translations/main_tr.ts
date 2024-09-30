@@ -215,6 +215,14 @@
         <source>LIMIT</source>
         <translation type="unfinished">LİMİT</translation>
     </message>
+    <message>
+        <source>blended</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>acc</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>AutoLaneChangeTimer</name>
@@ -1444,14 +1452,6 @@ This may take up to a minute.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>HKG CAN: Smoother Stopping Performance (Beta)</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Smoother stopping behind a stopped car or desired stopping event. This is only applicable to HKG CAN platforms using openpilot longitudinal control.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Subaru</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1562,11 +1562,19 @@ Reboot Required.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>HKG CAN: Enable Cruise Main By Default</source>
+        <source>HKG: Custom Tuning for New Longitudinal API</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Enabling this toggle sets CRUISE MAIN to ON by default when the car starts, without engaging MADS. The user still needs to manually engage MADS</source>
+        <source>HKG CAN: Enable Cruise Main by Default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>WARNING: This feature only applies when &quot;openpilot Longitudinal Control (Alpha)&quot; is enabled under &quot;Toggles&quot;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Enabling this toggle sets CRUISE MAIN to ON by default when the car starts, without engaging MADS. The user still needs to manually engage MADS.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2675,6 +2683,30 @@ Reboot Required.</source>
         <source>Default is Laneless. In Auto mode, sunnnypilot dynamically chooses between Laneline or Laneless model based on lane recognition confidence level on road and certain conditions.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Overtaking Acceleration Assist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Overtaking Acceleration Assist will operate when the turn signal indicator is turned on to the left (left-hand drive) or turned on to the right (right-hand drive) while openpilot Longitudinal Control is operating.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>NNLC: Remove Lateral Jerk Response (Alpha)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>When NNLC is active, enable this to disables the use of lateral jerk in steering torque calculations, focusing solely on lateral acceleration for a simplified control response.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Lateral Jerk with Torque Lateral Control (Alpha)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Utilizes limited lateral jerk control for improved steering response, leveraging stock torque lateral controller capabilities. Designed to mimic NNLC behavior without training models or data collection.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>TermsPage</name>
@@ -3054,6 +3086,10 @@ This feature must be used along with SLC, and/or V-TSC, and/or M-TSC.</source>
     </message>
     <message>
         <source>Enable the sunnypilot longitudinal control (alpha) toggle to allow Experimental mode.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Use Planner Speed</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
